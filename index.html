@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriValue - Empowering Rural Entrepreneurs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h2>🌾 AgriValue</h2>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="#resources" class="nav-link">Resources</a></li>
+                    <li><a href="#marketplace" class="nav-link">Marketplace</a></li>
+                    <li><a href="#stories" class="nav-link">Success Stories</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-user">
+                    <a href="dashboard.html" class="nav-link" id="dashboardLink" style="display: none;">Dashboard</a>
+                    <a href="login.html" class="btn btn-primary btn-sm" id="loginLink">Sign In</a>
+                    <button class="btn-logout" id="logoutBtn" style="display: none;">Logout</button>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transform Your Farm into a Thriving Business</h1>
+                <p class="hero-subtitle">Empowering farmers to create value-added agricultural products and build successful rural enterprises</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Get Started</a>
+                    <a href="#resources" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About AgriValue</h2>
+                <p class="section-subtitle">Supporting rural entrepreneurship through value-added agriculture</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>AgriValue is dedicated to empowering farmers and rural communities by providing the knowledge, tools, and marketplace connections needed to transform raw agricultural products into profitable value-added goods. We believe that every farmer has the potential to become a successful entrepreneur.</p>
+                    <h3>What We Offer</h3>
+                    <ul class="features-list">
+                        <li>✓ Comprehensive guides on value-added product development</li>
+                        <li>✓ Business planning and marketing resources</li>
+                        <li>✓ Marketplace connections for selling your products</li>
+                        <li>✓ Training programs and workshops</li>
+                        <li>✓ Success stories and case studies</li>
+                        <li>✓ Community support and networking</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>🌱</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Value-Added Products</h2>
+                <p class="section-subtitle">Discover opportunities to transform your harvest into profitable products</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">🥫</div>
+                    <h3>Processed Foods</h3>
+                    <p>Jams, jellies, pickles, sauces, and canned goods. Learn preservation techniques and packaging standards.</p>
+                    <ul class="product-features">
+                        <li>Food safety regulations</li>
+                        <li>Packaging design</li>
+                        <li>Labeling requirements</li>
+                    </ul>
+                    <a href="#" class="product-link">Explore Guide →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🧄</div>
+                    <h3>Spices & Herbs</h3>
+                    <p>Dried herbs, spice blends, and specialty seasonings. Create unique flavor profiles for market differentiation.</p>
+                    <ul class="product-features">
+                        <li>Drying techniques</li>
+                        <li>Blending methods</li>
+                        <li>Quality standards</li>
+                    </ul>
+                    <a href="#" class="product-link">Explore Guide →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🥜</div>
+                    <h3>Nuts & Seeds</h3>
+                    <p>Roasted nuts, seed mixes, and nut butters. High-value products with strong market demand.</p>
+                    <ul class="product-features">
+                        <li>Processing techniques</li>
+                        <li>Storage solutions</li>
+                        <li>Nutritional benefits</li>
+                    </ul>
+                    <a href="#" class="product-link">Explore Guide →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🍯</div>
+                    <h3>Honey & Bee Products</h3>
+                    <p>Raw honey, beeswax products, and propolis. Natural products with premium pricing opportunities.</p>
+                    <ul class="product-features">
+                        <li>Extraction methods</li>
+                        <li>Quality grading</li>
+                        <li>Packaging innovations</li>
+                    </ul>
+                    <a href="#" class="product-link">Explore Guide →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🌿</div>
+                    <h3>Organic Products</h3>
+                    <p>Certified organic value-added products. Tap into the growing demand for organic goods.</p>
+                    <ul class="product-features">
+                        <li>Certification process</li>
+                        <li>Organic standards</li>
+                        <li>Market positioning</li>
+                    </ul>
+                    <a href="#" class="product-link">Explore Guide →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🥤</div>
+                    <h3>Beverages</h3>
+                    <p>Fresh juices, teas, herbal infusions, and specialty drinks. High-margin products with local appeal.</p>
+                    <ul class="product-features">
+                        <li>Processing equipment</li>
+                        <li>Flavor development</li>
+                        <li>Shelf-life extension</li>
+                    </ul>
+                    <a href="#" class="product-link">Explore Guide →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Resources & Training</h2>
+                <p class="section-subtitle">Everything you need to start and grow your value-added business</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">📚</div>
+                    <h3>Business Planning</h3>
+                    <p>Comprehensive guides to create a business plan, financial projections, and marketing strategies for your agricultural enterprise.</p>
+                    <a href="#" class="resource-btn">Access Resources</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">🎓</div>
+                    <h3>Training Programs</h3>
+                    <p>Online courses and workshops covering food processing, quality control, packaging, and business management.</p>
+                    <a href="#" class="resource-btn">View Courses</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">📋</div>
+                    <h3>Regulatory Compliance</h3>
+                    <p>Step-by-step guides to meet food safety regulations, licensing requirements, and labeling standards.</p>
+                    <a href="#" class="resource-btn">Learn More</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">💰</div>
+                    <h3>Funding & Grants</h3>
+                    <p>Information about available grants, loans, and funding opportunities for rural entrepreneurs.</p>
+                    <a href="#" class="resource-btn">Explore Options</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">🔧</div>
+                    <h3>Equipment & Tools</h3>
+                    <p>Guidance on selecting and sourcing processing equipment, packaging machinery, and quality control tools.</p>
+                    <a href="#" class="resource-btn">Get Started</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">📊</div>
+                    <h3>Market Research</h3>
+                    <p>Tools and templates to analyze market demand, identify target customers, and develop pricing strategies.</p>
+                    <a href="#" class="resource-btn">Access Tools</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marketplace Section -->
+    <section id="marketplace" class="marketplace">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Marketplace</h2>
+                <p class="section-subtitle">Connect with buyers, retailers, and consumers for your products</p>
+            </div>
+            <div class="marketplace-content">
+                <div class="marketplace-features">
+                    <div class="marketplace-feature">
+                        <div class="feature-icon">🛒</div>
+                        <h3>Online Storefront</h3>
+                        <p>Create your own online store to showcase and sell your value-added products directly to consumers.</p>
+                    </div>
+                    <div class="marketplace-feature">
+                        <div class="feature-icon">🤝</div>
+                        <h3>B2B Connections</h3>
+                        <p>Connect with retailers, restaurants, and distributors looking for quality agricultural products.</p>
+                    </div>
+                    <div class="marketplace-feature">
+                        <div class="feature-icon">📱</div>
+                        <h3>Marketing Support</h3>
+                        <p>Access marketing tools, social media templates, and promotional materials to grow your customer base.</p>
+                    </div>
+                    <div class="marketplace-feature">
+                        <div class="feature-icon">📈</div>
+                        <h3>Sales Analytics</h3>
+                        <p>Track your sales performance, understand customer preferences, and optimize your product offerings.</p>
+                    </div>
+                </div>
+                <div class="marketplace-cta">
+                    <h3>Ready to Start Selling?</h3>
+                    <p>Join our marketplace today and start connecting with customers who value quality, locally-produced agricultural products.</p>
+                    <a href="#contact" class="btn btn-primary">Join Marketplace</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section id="stories" class="stories">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Success Stories</h2>
+                <p class="section-subtitle">Real farmers building thriving businesses</p>
+            </div>
+            <div class="stories-grid">
+                <div class="story-card">
+                    <div class="story-image">
+                        <span>👨‍🌾</span>
+                    </div>
+                    <div class="story-content">
+                        <h3>Rajesh Kumar</h3>
+                        <p class="story-location">Punjab, India</p>
+                        <p class="story-text">"Starting with just a small garden, I now produce and sell over 50 varieties of organic jams and preserves. AgriValue helped me understand the business side of farming and connect with local retailers."</p>
+                        <p class="story-result">💰 Revenue increased by 300% in 2 years</p>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <div class="story-image">
+                        <span>👩‍🌾</span>
+                    </div>
+                    <div class="story-content">
+                        <h3>Priya Sharma</h3>
+                        <p class="story-location">Himachal Pradesh, India</p>
+                        <p class="story-text">"Through AgriValue's resources, I learned to create value-added products from my honey harvest. Now I have a successful online business selling honey, beeswax candles, and propolis products."</p>
+                        <p class="story-result">🏆 Featured in local business magazine</p>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <div class="story-image">
+                        <span>👨‍🌾</span>
+                    </div>
+                    <div class="story-content">
+                        <h3>Amit Patel</h3>
+                        <p class="story-location">Gujarat, India</p>
+                        <p class="story-text">"The training programs and marketplace connections through AgriValue transformed my spice farm into a profitable enterprise. I now export specialty spice blends to international markets."</p>
+                        <p class="story-result">🌍 Exporting to 5 countries</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">Have questions? We're here to help you succeed</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>support@agrivalue.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 1800-AGRIVALUE</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Rural Entrepreneurship Hub<br>New Delhi, India 110001</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🌾 AgriValue</h3>
+                    <p>Empowering farmers to create value-added agricultural products and build successful rural enterprises.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#marketplace">Marketplace</a></li>
+                        <li><a href="#stories">Success Stories</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get updates on new resources and opportunities.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AgriValue. All rights reserved. | Empowering Rural Entrepreneurship</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Update navigation on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof updateNavigation === 'function') {
+                updateNavigation();
+            }
+        });
+    </script>
+</body>
+</html>
+
